@@ -2,38 +2,38 @@ package modelo;
 
 /**
  *
- * @author User
+ * @pedropirescg User
  */
 public class Documentos {
-    
+    /** Classificação do objeto
+     * Atributos
+     * Métodos
+     * Estado
+     */
     private Date data;
     private String caminhoarquivo;
     private int codigocliente;
 
-    /**
-     * @return the data
-     */
-    public Date getData() {
+    public date getData() {
         return data;
     }
 
-    /**
-     * @param data the data to set
-     */
     public void setData(Date data) {
         this.data = data;
     }
 
-    /**
-     * @return the caminhoarquivo
-     */
+    public int getCodigocliente() {
+        return codigocliente;
+    }
+
+    public void setCodigocliente(int codigocliente) {
+        this.codigocliente = codigocliente;
+    }
+
     public String getCaminhoarquivo() {
         return caminhoarquivo;
     }
 
-    /**
-     * @param caminhoarquivo the caminhoarquivo to set
-     */
     public void setCaminhoarquivo(String caminhoarquivo) {
         this.caminhoarquivo = caminhoarquivo;
     }    
